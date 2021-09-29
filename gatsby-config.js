@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
+  plugins: ['gatsby-plugin-postcss'],
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,

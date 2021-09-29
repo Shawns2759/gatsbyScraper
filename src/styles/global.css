@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+    padding: 1rem;
+    background: #f2f2f2;
+    color: #333;
+    font-family: "Nunito";
+    font-size: 1.2rem;
+    /* height: 100vh; */
+    /* min-width: 380px; */
+  }
+
+  .borderHover{
+    background: #fff;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1.5rem 2rem;
+  }
+  .borderHover:hover{
+   border-left:6px solid #4979ff;
+}
+.listing{
+    display:block;
+    margin-right:0 auto ;
+}
+
+.btn {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    /* margin: 20px auto; */
+    background: #4979ff;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    /* margin: 0px; */
+  }
+
+  /* .date{
+      display:inline;
+  }
+  @media(max-width:656px){
+      .date{
+          display: block;
+        width: 100%;
+        text-align: center;
+      }
+  } */
